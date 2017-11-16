@@ -1,0 +1,62 @@
+p {
+  font-family: 'Bitter', serif;
+  position: relative;
+  left: 10px;
+}
+
+.rectangle {
+  width: 60px;
+  height: 3px;
+  background-color: black;
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+
+.image p {
+  color: white;
+  font-size: 12px;
+  float: right;
+  padding-right: 15px;
+  top: 160px;
+  position: relative;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  float: left;
+  margin: 10px;
+  opacity: 0.7;
+  background-color: black;
+}
+
+.image:hover {
+  opacity: 1.0;
+}
+
+.studentOne {
+  background-image: url("../assets/images/angelina.JPG");
+}
+
+.studentTwo {
+  background-image: url("../assets/images/diana-colmenero.JPG");
+}
+
+.studentThree {
+  background-image: url("../assets/images/julieta-beltran.JPG");
+}
+
+.studentFour {
+  background-image: url("../assets/images/maria-antonieta.JPG");
+  clear: left;
+}
+
+.studentFive {
+  background-image: url("../assets/images/maricarmen-vega.JPG");
+}
+
+.studentSix {
+  background-image: url("../assets/images/rubi-eligio.JPG");
+}
